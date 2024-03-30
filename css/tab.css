@@ -1,0 +1,28 @@
+#lighthouse-wrapper {
+  display: grid;
+  grid-template-columns: none;
+}
+
+.img-right{
+  justify-self: left;
+}
+
+#lighthouse-nav ul {
+  display: grid;
+  grid-template-columns: none;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: end;
+  list-style: none;
+  align-items: center;
+  margin: 0px;
+}
+
+#lighthouse-nav ul li {
+  background-color: pink;
+  padding: 10px;
+  margin: 10px 20px;
+}
+
+#lighthouse-nav ul li a {
+  text-decoration: none;
+}
